@@ -1,0 +1,73 @@
+/* About Component Styles */
+.abt {
+    background-color: rgba(128, 128, 128, 0.313);
+    color: #ffffff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    text-align: center;
+  }
+  
+  /* Headings */
+  .abt h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .abt h3 {
+    font-size: 1.5rem;
+    color: #0056b3;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  /* Paragraphs */
+  .abt p {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  /* List Styles */
+  .abt ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .abt li {
+    font-size: 1.1rem;
+    color: #444;
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .abt li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .abt li::before {
+    content: "✔️";
+    margin-right: 10px;
+    color: #28a745;
+  }
+  
+  /* Animation on hover */
+  .abt h2:hover, .abt h3:hover {
+    color: #0056b3;
+    transition: color 0.3s ease-in-out;
+  }
+  

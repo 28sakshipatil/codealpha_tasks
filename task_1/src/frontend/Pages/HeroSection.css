@@ -1,0 +1,48 @@
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    margin: 30px auto;
+    padding: 30px 50px;
+    background-color: #f74f2d; /* Vibrant orange color */
+    background-color: rgba(128, 128, 128, 0.313);
+    color: #fff; /* White text for contrast */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 1500px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Main Heading */
+  .hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .hero h1 i {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #ffe3dc; /* Softer shade for emphasis */
+  }
+  
+  /* Subheading */
+  .hero h2 {
+    font-size: 2rem;
+    color: #ffddc1; /* Light orange tone for subtext */
+    margin-top: 20px;
+    font-weight: normal;
+  }
+  
+  /* Hover Effects */
+  .hero h1:hover {
+    color: #ffd6c1; /* Lighter tone */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .hero h2:hover {
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  }
+  

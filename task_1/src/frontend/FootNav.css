@@ -1,0 +1,159 @@
+/* Prevent horizontal scroll */
+
+
+/* General Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.422); /* Transparent black background */
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  height: 4rem;
+  width: 100%; /* Ensure navbar takes up full width */
+  box-sizing: border-box; /* Ensures padding does not cause overflow */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #d3d3d3;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger span {
+  background-color: white;
+  height: 3px;
+  width: 25px;
+  margin: 3px 0;
+  transition: 0.3s ease;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #6a0dad;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* Footer */
+.footer {
+  background-color: rgba(0, 0, 0, 0); /* Transparent background */
+  color: white; /* Text color */
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding does not cause overflow */
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.social-icons a:hover {
+  text-decoration: underline;
+}
+
+
+
+  /* footer */
+  .footer {
+    background-color: rgba(0, 0, 0, 0); /* Transparent background */
+    color: white; /* Text color */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .social-icons {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .social-icons a:hover {
+    text-decoration: underline;
+  }
+  
